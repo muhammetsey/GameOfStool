@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 180ff59739797d74dae541be1cf29cc3, type: 3}
   m_Name: event 3
   m_EditorClassIdentifier: Assembly-CSharp::OlayKarti
-  kartResmi: {fileID: 0}
-  yesMilitary: 0
+  kartResmi: {fileID: -4229070682128196188, guid: c0160cb4ab829544dba601188bc70f6d, type: 3}
+  yesMilitary: 5
   yesMorale: 0
-  yesTreasury: 0
+  yesTreasury: -3
   yesProsperity: 0
-  noMilitary: 0
+  noMilitary: -5
   noMorale: 0
   noTreasury: 0
   noProsperity: 0

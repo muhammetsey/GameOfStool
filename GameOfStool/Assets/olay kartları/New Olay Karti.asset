@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 180ff59739797d74dae541be1cf29cc3, type: 3}
   m_Name: New Olay Karti
   m_EditorClassIdentifier: Assembly-CSharp::OlayKarti
-  kartResmi: {fileID: 2083483762783015358, guid: 733c6f5df7a07764db3981cb301c4d01, type: 3}
+  kartResmi: {fileID: 8169913009632009299, guid: df4302b41900f2745baec9171e043b0b, type: 3}
   yesMilitary: 5
-  yesMorale: 4
-  yesTreasury: 7
-  yesProsperity: 2
-  noMilitary: -9
-  noMorale: -7
-  noTreasury: -3
-  noProsperity: -2
+  yesMorale: 0
+  yesTreasury: -5
+  yesProsperity: 0
+  noMilitary: 0
+  noMorale: -5
+  noTreasury: 0
+  noProsperity: 0

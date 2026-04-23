@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 180ff59739797d74dae541be1cf29cc3, type: 3}
-  m_Name: event 2
+  m_Name: event 7
   m_EditorClassIdentifier: Assembly-CSharp::OlayKarti
-  kartResmi: {fileID: -3611404119508276951, guid: ebaa1a4eca5cf5845a3f919210b24324, type: 3}
-  yesMilitary: 10
-  yesMorale: 0
-  yesTreasury: -10
-  yesProsperity: 0
-  noMilitary: -10
-  noMorale: 0
+  kartResmi: {fileID: -5508290218215850992, guid: 6df6fdd8aa7d452488546c72f5586edd, type: 3}
+  yesMilitary: -10
+  yesMorale: 5
+  yesTreasury: 0
+  yesProsperity: 5
+  noMilitary: 0
+  noMorale: -20
   noTreasury: 0
-  noProsperity: 0
+  noProsperity: -10
