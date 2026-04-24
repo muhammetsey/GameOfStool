@@ -2200,10 +2200,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 4e1b49d5944216a45bcc78f39c9a4961, type: 2}
   - {fileID: 0}
   hanedanBayragiEkrani: {fileID: 1937644349}
-  bayrak1: {fileID: 18230525522014197, guid: bf3911d4aace3af439e9fd7ca6ac6822, type: 3}
-  bayrak2: {fileID: -2487034702894180137, guid: 9b2ab405f780ea3449754872104e3b71, type: 3}
+  bayrak1: {fileID: 9209904224621865233, guid: babf29a91668a684b89fff9ab277ab7f, type: 3}
+  bayrak2: {fileID: -6775009668081598911, guid: 484a246b21e627d4fb79e38cd637f00a, type: 3}
   bayrak3: {fileID: 2549903873456832470, guid: 8e870f6102b08244ba3b1519efbde1e9, type: 3}
-  bayrak4: {fileID: 562142421605377471, guid: 1d6624fe85b146f40b3e6260401ae633, type: 3}
+  bayrak4: {fileID: -2602767430557379773, guid: 8d8b2fdec7bd14b47b83c0514330ccbc, type: 3}
 --- !u!4 &1190707739
 Transform:
   m_ObjectHideFlags: 0
