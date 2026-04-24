@@ -41,10 +41,48 @@ public class GameManager : MonoBehaviour
     private float treasuryValue = 50f;
     private float prosperityValue = 50f;
 
+    [Header("Hanedan Bayraklarý")]
+    public Image hanedanBayragiEkrani; // Sað üstteki UI Image
+    public Sprite bayrak1; // 1. Hanedan (Sarý)
+    public Sprite bayrak2; // 2. Hanedan (Siyah)
+    public Sprite bayrak3; // 3. Hanedan (Kýrmýzý)
+    public Sprite bayrak4; // 4. Hanedan (Yeþil)
+
+    // ... (Diðer deðiþkenlerin aynen kalsýn) ...
+
     void Start()
     {
         btnRestart.SetActive(false);
-        DegerleriGuncelle(); // Artýk bu fonksiyon aþaðýda var!
+
+        // HAFÝZADAN KÝMÝN SEÇÝLDÝÐÝNE BAKIYORUZ
+        if (OyunVerileri.secilenHanedanID == 1)
+        {
+            militaryValue = 70f; moraleValue = 50f; treasuryValue = 30f; prosperityValue = 50f;
+            hanedanBayragiEkrani.sprite = bayrak1; // BÝZE LAZIM OLAN KOD BU!
+        }
+        else if (OyunVerileri.secilenHanedanID == 2)
+        {
+            militaryValue = 30f; moraleValue = 50f; treasuryValue = 80f; prosperityValue = 50f;
+            hanedanBayragiEkrani.sprite = bayrak2;
+        }
+        else if (OyunVerileri.secilenHanedanID == 3)
+        {
+            militaryValue = 50f; moraleValue = 70f; treasuryValue = 50f; prosperityValue = 30f;
+            hanedanBayragiEkrani.sprite = bayrak3;
+        }
+        else if (OyunVerileri.secilenHanedanID == 4)
+        {
+            militaryValue = 50f; moraleValue = 30f; treasuryValue = 50f; prosperityValue = 70f;
+            hanedanBayragiEkrani.sprite = bayrak4;
+        }
+        else
+        {
+            militaryValue = 50f; moraleValue = 50f; treasuryValue = 50f; prosperityValue = 50f;
+            // Eðer menüden gelmediyse bayrak kutusunu gizle (hata vermesin diye)
+            hanedanBayragiEkrani.gameObject.SetActive(false);
+        }
+
+        DegerleriGuncelle();
         YeniKartYukle();
     }
 
