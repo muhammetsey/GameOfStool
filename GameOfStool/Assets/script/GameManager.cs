@@ -57,22 +57,22 @@ public class GameManager : MonoBehaviour
         // HAFÝZADAN KÝMÝN SEÇÝLDÝÐÝNE BAKIYORUZ
         if (OyunVerileri.secilenHanedanID == 1)
         {
-            militaryValue = 70f; moraleValue = 50f; treasuryValue = 30f; prosperityValue = 50f;
+            militaryValue = 70f; moraleValue = 50f; treasuryValue = 50f; prosperityValue = 50f;
             hanedanBayragiEkrani.sprite = bayrak1; // BÝZE LAZIM OLAN KOD BU!
         }
         else if (OyunVerileri.secilenHanedanID == 2)
         {
-            militaryValue = 30f; moraleValue = 50f; treasuryValue = 80f; prosperityValue = 50f;
+            militaryValue = 50f; moraleValue = 70f; treasuryValue = 50f; prosperityValue = 50f;
             hanedanBayragiEkrani.sprite = bayrak2;
         }
         else if (OyunVerileri.secilenHanedanID == 3)
         {
-            militaryValue = 50f; moraleValue = 70f; treasuryValue = 50f; prosperityValue = 30f;
+            militaryValue = 50f; moraleValue = 50f; treasuryValue = 70f; prosperityValue = 50f;
             hanedanBayragiEkrani.sprite = bayrak3;
         }
         else if (OyunVerileri.secilenHanedanID == 4)
         {
-            militaryValue = 50f; moraleValue = 30f; treasuryValue = 50f; prosperityValue = 70f;
+            militaryValue = 50f; moraleValue = 50f; treasuryValue = 50f; prosperityValue = 70f;
             hanedanBayragiEkrani.sprite = bayrak4;
         }
         else
