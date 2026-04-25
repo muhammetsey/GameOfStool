@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b909018c32ee92745b0853636841d8ef
+guid: d1bc615593305974a8e410571fd3751f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4115477919644426499
-    second: morale0_0
+      213: -1051922615713434338
+    second: mor100_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,17 +96,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: morale0_0
+      name: mor100_0
       rect:
         serializedVersion: 2
-        x: 31
-        y: 59
-        width: 435
-        height: 330
+        x: 32
+        y: 53
+        width: 470
+        height: 356
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dfe51a603a2e2e6c0800000000000000
-      internalID: -4115477919644426499
+      spriteID: e15733f44f1d661f0800000000000000
+      internalID: -1051922615713434338
       vertices: []
       indices: 
       edges: []
@@ -135,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      morale0_0: -4115477919644426499
+      mor100_0: -1051922615713434338
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

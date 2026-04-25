@@ -2166,14 +2166,14 @@ MonoBehaviour:
   treasuryBar: {fileID: 1361230467}
   prosperityBar: {fileID: 1107238915}
   olayResmi: {fileID: 1896291429}
-  militarySifirResmi: {fileID: -8742689492754363183, guid: 8a57bfeb1500de84686637a54426bbed, type: 3}
-  moraleSifirResmi: {fileID: -342846483027572071, guid: 4aaa6ba3a89431946926ee6b4f48730b, type: 3}
-  treasurySifirResmi: {fileID: 4170918000146469429, guid: 64efa4a73353a6145a7621a3ff19cc25, type: 3}
-  prosperitySifirResmi: {fileID: 808618230152191695, guid: be0ea312840fdc542b4e2dfc86bf2033, type: 3}
-  militaryYuzResmi: {fileID: 0}
-  moraleYuzResmi: {fileID: 0}
-  treasuryYuzResmi: {fileID: 0}
-  prosperityYuzResmi: {fileID: 0}
+  militarySifirResmi: {fileID: -1923178772749500928, guid: d4ec7d1fc45b2b248880ce8052bf7e00, type: 3}
+  moraleSifirResmi: {fileID: -342846483027572071, guid: 1775f8f85f8614c4baa5918592fb5fea, type: 3}
+  treasurySifirResmi: {fileID: -380739875761388358, guid: 35cf2e7c904cb4f43ad08eff3e602c9d, type: 3}
+  prosperitySifirResmi: {fileID: -7744231403457607704, guid: e3766261336999a419ae8da58a8d8e81, type: 3}
+  militaryYuzResmi: {fileID: 2557774451269425869, guid: 81725753e7ca34c4cba285d531bba0a0, type: 3}
+  moraleYuzResmi: {fileID: -1051922615713434338, guid: d1bc615593305974a8e410571fd3751f, type: 3}
+  treasuryYuzResmi: {fileID: 7171731213074190439, guid: 0712f57d47a37674388cf58590177c36, type: 3}
+  prosperityYuzResmi: {fileID: -3245929406008363085, guid: 0b9b6a6750ad0134b863c8086ef6196f, type: 3}
   btnYes: {fileID: 1524118841}
   btnNo: {fileID: 1567145345}
   btnRestart: {fileID: 1006218769}
