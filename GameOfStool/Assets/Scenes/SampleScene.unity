@@ -2001,7 +2001,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -27.1486, y: 69.7972}
+  m_AnchoredPosition: {x: -27.148651, y: 69.79721}
   m_SizeDelta: {x: -682.9027, y: -330.4465}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1013493892
@@ -2167,7 +2167,7 @@ MonoBehaviour:
   prosperityBar: {fileID: 1107238915}
   olayResmi: {fileID: 1896291429}
   militarySifirResmi: {fileID: -8742689492754363183, guid: 8a57bfeb1500de84686637a54426bbed, type: 3}
-  moraleSifirResmi: {fileID: -4115477919644426499, guid: b909018c32ee92745b0853636841d8ef, type: 3}
+  moraleSifirResmi: {fileID: -342846483027572071, guid: 4aaa6ba3a89431946926ee6b4f48730b, type: 3}
   treasurySifirResmi: {fileID: 4170918000146469429, guid: 64efa4a73353a6145a7621a3ff19cc25, type: 3}
   prosperitySifirResmi: {fileID: 808618230152191695, guid: be0ea312840fdc542b4e2dfc86bf2033, type: 3}
   militaryYuzResmi: {fileID: 0}
