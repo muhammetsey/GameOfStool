@@ -156,8 +156,8 @@ public class GameManager : MonoBehaviour
 
     public void OyunuYenidenBaslat()
     {
-        // 0 numaralý sahneye (Ana Menüye) geri dön
-        SceneManager.LoadScene(0);
+        // 1 numaralý sahneye (Ana Menüye) geri dön
+        SceneManager.LoadScene(1);
     }
 
     // ÝÞTE UNUTTUÐUM O KRÝTÝK FONKSÝYON BURADA :)
